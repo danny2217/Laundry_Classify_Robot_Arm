@@ -161,7 +161,6 @@ OpenAI에서 공개한 MIT License 기반 모델
 HuggingFace Transformers를 통해 로드함
 
 코드 및 모델 사용에 저작권 문제 없음
-(단, OpenAI/CLIP의 공식 문서 및 논문 출처 표시는 권장)
 
 [참고 출처]
 https://github.com/openai/CLIP
