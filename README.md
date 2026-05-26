@@ -62,9 +62,6 @@ SCServo 기반 로봇팔이 자동으로 배치하도록 설계.
 │
 └── README.md
 
-yaml
-코드 복사
-
 ---
 
 #  설치 방법
@@ -85,17 +82,17 @@ openai/clip-vit-base-patch32
 ▶ 실행 방법
  1. 실시간 카메라 분류
 bash
-코드 복사
+ 
 python camera_classify.py
  2. 이미지 폴더 분류
 bash
-코드 복사
+
 python classify_images.py
  3. 로봇팔 연동
 아두이노 연결 후:
 
 bash
-코드 복사
+
 python laundry_classify.py
 아두이노 포트(macOS):
 /dev/tty.usbmodemXXXXX 또는 /dev/tty.usbserial-XXXXX
@@ -134,11 +131,10 @@ Morphology Close/Open 연산으로 노이즈 제거
 Python → Serial → Arduino → SCServo
 
 전송 포맷:
-
-php-template
-코드 복사
+ 
 <material>|<laundry_type>
 예: white_cotton shirt|Normal_Washing
+
 로봇팔 동작:
 
 초음파 센서 감지
